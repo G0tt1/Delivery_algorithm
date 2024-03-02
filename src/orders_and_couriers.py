@@ -1,11 +1,10 @@
 from random import uniform, randint
 import csv
-import os
 
 order_list = []
 couriers_coordinate = []
-orders_filename = 'src/data/orders_data.csv'
-couriers_filename = 'src/data/couriers_data.csv'
+orders_filename = 'data/orders_data.csv'
+couriers_filename = 'data/couriers_data.csv'
 
 for _ in range(int(input('Укажите количество заказов: '))):
     coordinate_Ax = uniform(61.93, 62.12)
